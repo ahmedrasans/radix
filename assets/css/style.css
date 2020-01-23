@@ -1395,11 +1395,24 @@ textarea:focus {
 
 
 
+
+@media only screen and (min-width: 580px){
+  
+  .mobile-menu-area {
+    display: none; }
+}
+
+  
+
+
+
 @media only screen and (max-width: 580px){
 
   .contacty{
     margin-left: 30px;
   }
+
+  
 
   
 
@@ -1536,8 +1549,7 @@ textarea:focus {
       flex: 0 0 50%;
       max-width: 50%; } }
 
-.mobile-menu-area {
-  display: none; }
+
 
 
   @media only screen and (min-width: 768px) and (max-width: 991px) {
